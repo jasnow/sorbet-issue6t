@@ -1524,7 +1524,9 @@
 # undefined method `flatten$1' for class `Array'
 # undefined method `index$2' for class `Array'
 # undefined method `initialize$2' for class `Array'
+# Did you mean?  initialize
 # undefined method `insert$1' for class `Array'
+# Did you mean?  inspect
 # undefined method `join$1' for class `Array'
 # undefined method `last$2' for class `Array'
 # undefined method `permutation$2' for class `Array'
@@ -1540,6 +1542,7 @@
 # undefined method `slice!$2' for class `Array'
 # undefined method `sum$2' for class `Array'
 # undefined method `to_s$1' for class `Array'
+# Did you mean?  to_s
 # wrong constant name []$2
 # wrong constant name []=$2
 # wrong constant name append
@@ -1996,6 +1999,7 @@
 # uninitialized constant Chalk
 # uninitialized constant Chalk
 # undefined method `initialize$2' for class `Class'
+# Did you mean?  initialize
 # uninitialized constant Class::DELEGATION_RESERVED_KEYWORDS
 # uninitialized constant Class::DELEGATION_RESERVED_METHOD_NAMES
 # uninitialized constant Class::RUBY_RESERVED_KEYWORDS
@@ -2029,7 +2033,9 @@
 # uninitialized constant Coverage
 # uninitialized constant Coverage
 # undefined method `initialize$1' for class `Date'
+# Did you mean?  initialize
 # undefined method `to_s$1' for class `Date'
+# Did you mean?  to_s
 # undefined method `to_time$1' for class `Date'
 # uninitialized constant Date::DAYS_INTO_WEEK
 # uninitialized constant Date::WEEKEND_DAYS
@@ -2058,29 +2064,48 @@
 # wrong constant name const_missing
 # wrong constant name delegating_block
 # wrong constant name public_api
-# uninitialized constant DidYouMean::ClassNameChecker
-# uninitialized constant DidYouMean::ClassNameChecker
-# uninitialized constant DidYouMean::Correctable
-# uninitialized constant DidYouMean::Correctable
+# wrong constant name class_name
+# wrong constant name class_names
+# wrong constant name corrections
+# wrong constant name initialize
+# wrong constant name scopes
+# wrong constant name corrections
+# wrong constant name original_message
+# wrong constant name spell_checker
+# wrong constant name to_s
 # uninitialized constant DidYouMean::Formatter
 # uninitialized constant DidYouMean::Formatter
-# uninitialized constant DidYouMean::Jaro
-# uninitialized constant DidYouMean::Jaro
-# uninitialized constant DidYouMean::JaroWinkler
-# uninitialized constant DidYouMean::JaroWinkler
-# uninitialized constant DidYouMean::Levenshtein
-# uninitialized constant DidYouMean::Levenshtein
-# uninitialized constant DidYouMean::MethodNameChecker
-# uninitialized constant DidYouMean::MethodNameChecker
-# uninitialized constant DidYouMean::NameErrorCheckers
-# uninitialized constant DidYouMean::NameErrorCheckers
-# uninitialized constant DidYouMean::NullChecker
-# uninitialized constant DidYouMean::NullChecker
-# uninitialized constant DidYouMean::SpellChecker
-# uninitialized constant DidYouMean::SpellChecker
-# uninitialized constant DidYouMean::VariableNameChecker
-# uninitialized constant DidYouMean::VariableNameChecker
+# wrong constant name distance
+# wrong constant name distance
+# wrong constant name corrections
+# wrong constant name initialize
+# wrong constant name <static-init>
+# wrong constant name distance
+# wrong constant name min3
+# wrong constant name corrections
+# wrong constant name initialize
+# wrong constant name method_name
+# wrong constant name method_names
+# wrong constant name receiver
+# wrong constant name NameErrorCheckers$1
+# wrong constant name NameErrorCheckers$1
+# wrong constant name corrections
+# wrong constant name initialize
+# wrong constant name message_for
+# wrong constant name <static-init>
+# wrong constant name correct
+# wrong constant name initialize
+# wrong constant name corrections
+# wrong constant name cvar_names
+# wrong constant name initialize
+# wrong constant name ivar_names
+# wrong constant name lvar_names
+# wrong constant name method_names
+# wrong constant name name
+# wrong constant name formatter
+# wrong constant name formatter=
 # undefined method `initialize$1' for class `Dir'
+# Did you mean?  initialize
 # wrong constant name children
 # wrong constant name each_child
 # wrong constant name initialize$1
@@ -2106,6 +2131,7 @@
 # wrong constant name mktmpdir$2
 # wrong constant name tmpdir
 # undefined method `initialize$1' for class `ERB'
+# Did you mean?  initialize
 # wrong constant name def_method
 # wrong constant name def_module
 # wrong constant name initialize$1
@@ -2197,6 +2223,7 @@
 # wrong constant name zip
 # undefined method `each$2' for class `Enumerator'
 # undefined method `initialize$1' for class `Enumerator'
+# Did you mean?  initialize
 # undefined method `with_index$2' for class `Enumerator'
 # wrong constant name +
 # wrong constant name <Class:ArithmeticSequence>
@@ -2388,7 +2415,9 @@
 # wrong constant name systmpdir
 # wrong constant name uname
 # undefined method `exception$1' for class `Exception'
+# Did you mean?  exception
 # undefined method `initialize$1' for class `Exception'
+# Did you mean?  initialize
 # wrong constant name exception$1
 # wrong constant name full_message
 # wrong constant name initialize$1
@@ -2404,6 +2433,14 @@
 # wrong constant name e2mm_message
 # wrong constant name extend_object
 # wrong constant name message
+# wrong constant name <static-init>
+# wrong constant name <Class:NativeType>
+# wrong constant name <Class:NullPointerError>
+# wrong constant name <static-init>
+# wrong constant name <static-init>
+# uninitialized constant FFI::Struct::InlineArray::Elem
+# wrong constant name <static-init>
+# wrong constant name <static-init>
 # wrong constant name <static-init>
 # wrong constant name resume
 # wrong constant name transfer
@@ -2424,7 +2461,6 @@
 # undefined singleton method `umask$1' for `File'
 # undefined singleton method `utime$1' for `File'
 # wrong constant name absolute_path$1
-# wrong constant name atomic_write
 # wrong constant name basename$1
 # wrong constant name chmod$1
 # wrong constant name chown$1
@@ -2436,6 +2472,7 @@
 # wrong constant name lchown$1
 # wrong constant name lutime
 # wrong constant name mkfifo
+# wrong constant name probe_stat_in
 # wrong constant name realdirpath$1
 # wrong constant name realpath$1
 # wrong constant name umask$1
@@ -2535,6 +2572,7 @@
 # wrong constant name symlink
 # wrong constant name uptodate?
 # undefined method `rationalize$2' for class `Float'
+# Did you mean?  Rational
 # uninitialized constant Float::EXABYTE
 # uninitialized constant Float::GIGABYTE
 # uninitialized constant Float::KILOBYTE
@@ -4405,6 +4443,7 @@
 # undefined method `default$2' for class `Hash'
 # undefined method `fetch$2' for class `Hash'
 # undefined method `initialize$2' for class `Hash'
+# Did you mean?  initialize
 # wrong constant name <
 # wrong constant name <=
 # wrong constant name >
@@ -4431,7 +4470,7 @@
 # wrong constant name transform_values
 # wrong constant name transform_values!
 # wrong constant name update
-# wrong constant name from_trusted_xml
+# wrong constant name from_xml
 # wrong constant name <Class:Gettext>
 # wrong constant name <Class:Locale>
 # wrong constant name <Class:Middleware>
@@ -4637,9 +4676,11 @@
 # undefined method `each_line$2' for class `IO'
 # undefined method `fcntl$1' for class `IO'
 # undefined method `initialize$1' for class `IO'
+# Did you mean?  initialize
 # undefined method `ioctl$1' for class `IO'
 # undefined method `lines$2' for class `IO'
 # undefined method `read$1' for class `IO'
+# Did you mean?  read
 # undefined method `read_nonblock$2' for class `IO'
 # undefined method `readpartial$2' for class `IO'
 # undefined method `reopen$2' for class `IO'
@@ -4648,6 +4689,7 @@
 # undefined method `sysread$1' for class `IO'
 # undefined method `sysseek$1' for class `IO'
 # undefined method `write$1' for class `IO'
+# Did you mean?  write
 # wrong constant name advise$1
 # wrong constant name each$2
 # wrong constant name each_line$2
@@ -5033,7 +5075,9 @@
 # wrong constant name version
 # undefined method `chr$2' for class `Integer'
 # undefined method `inspect$1' for class `Integer'
+# Did you mean?  inspect
 # undefined method `rationalize$2' for class `Integer'
+# Did you mean?  Rational
 # uninitialized constant Integer::EXABYTE
 # uninitialized constant Integer::GIGABYTE
 # uninitialized constant Integer::KILOBYTE
@@ -5054,19 +5098,39 @@
 # wrong constant name from_state
 # wrong constant name initialize
 # undefined method `clone$1' for module `Kernel'
+# Did you mean?  clone
 # undefined method `define_singleton_method$2' for module `Kernel'
+# Did you mean?  define_singleton_method
 # undefined method `display$1' for module `Kernel'
+# Did you mean?  display
 # undefined method `enum_for$2' for module `Kernel'
+# Did you mean?  enum_for
 # undefined method `exit$2' for module `Kernel'
+# Did you mean?  exit
+#                exit!
 # undefined method `extend$1' for module `Kernel'
+# Did you mean?  extend
+#                extended
 # undefined method `methods$1' for module `Kernel'
+# Did you mean?  methods
+#                method
+#                method
 # undefined method `private_methods$1' for module `Kernel'
+# Did you mean?  private_methods
 # undefined method `protected_methods$1' for module `Kernel'
+# Did you mean?  protected_methods
 # undefined method `public_methods$1' for module `Kernel'
+# Did you mean?  public_methods
+#                public_method
 # undefined method `public_send$1' for module `Kernel'
+# Did you mean?  public_send
 # undefined method `send$2' for module `Kernel'
+# Did you mean?  send
 # undefined method `singleton_methods$1' for module `Kernel'
+# Did you mean?  singleton_methods
+#                singleton_method
 # undefined method `to_enum$2' for module `Kernel'
+# Did you mean?  to_enum
 # wrong constant name clone$1
 # wrong constant name define_singleton_method$2
 # wrong constant name display$1
@@ -6806,21 +6870,43 @@
 # uninitialized constant Minitest::Test::SIGNALS
 # uninitialized constant Minitest::Test::UNDEFINED
 # undefined method `class_eval$2' for class `Module'
+# Did you mean?  class_eval
 # undefined method `class_variables$1' for class `Module'
+# Did you mean?  class_variables
+#                class_variable_set
+#                class_variable_get
 # undefined method `const_defined?$1' for class `Module'
+# Did you mean?  const_defined?
 # undefined method `const_get$1' for class `Module'
+# Did you mean?  const_get
+#                const_set
 # undefined method `constants$1' for class `Module'
+# Did you mean?  constants
 # undefined method `define_method$2' for class `Module'
+# Did you mean?  define_method
 # undefined method `instance_methods$1' for class `Module'
+# Did you mean?  instance_methods
+#                instance_method
 # undefined method `method_defined?$1' for class `Module'
+# Did you mean?  method_defined?
+#                method_undefined
 # undefined method `module_eval$2' for class `Module'
+# Did you mean?  module_eval
 # undefined method `private_instance_methods$1' for class `Module'
+# Did you mean?  private_instance_methods
 # undefined method `private_method_defined?$1' for class `Module'
+# Did you mean?  private_method_defined?
 # undefined method `protected_instance_methods$1' for class `Module'
+# Did you mean?  protected_instance_methods
 # undefined method `protected_method_defined?$1' for class `Module'
+# Did you mean?  protected_method_defined?
 # undefined method `public_instance_methods$1' for class `Module'
+# Did you mean?  public_instance_methods
+#                public_instance_method
 # undefined method `public_method_defined?$1' for class `Module'
+# Did you mean?  public_method_defined?
 # undefined method `remove_method$1' for class `Module'
+# Did you mean?  remove_method
 # wrong constant name class_eval$2
 # wrong constant name class_variables$1
 # wrong constant name const_defined?$1
@@ -6866,6 +6952,7 @@
 # wrong constant name <static-init>
 # undefined method `<<$1' for class `Net::BufferedIO'
 # undefined method `initialize$1' for class `Net::BufferedIO'
+# Did you mean?  initialize
 # undefined method `write$1' for class `Net::BufferedIO'
 # wrong constant name <<$1
 # wrong constant name initialize$1
@@ -7094,6 +7181,7 @@
 # wrong constant name io
 # wrong constant name <static-init>
 # undefined method `rationalize$1' for class `NilClass'
+# Did you mean?  Rational
 # wrong constant name rationalize$1
 # wrong constant name to_d
 # wrong constant name to_i
@@ -8608,9 +8696,11 @@
 # wrong constant name suggested_thread_count
 # wrong constant name with_application
 # undefined method `initialize$1' for class `Random'
+# Did you mean?  initialize
 # uninitialized constant Random::ALPHANUMERIC
 # wrong constant name initialize$1
 # undefined method `rand$2' for module `Random::Formatter'
+# Did you mean?  rand
 # undefined method `random_number$2' for module `Random::Formatter'
 # wrong constant name alphanumeric
 # wrong constant name rand$2
@@ -8618,6 +8708,7 @@
 # wrong constant name bytes
 # wrong constant name urandom
 # undefined method `initialize$1' for class `Range'
+# Did you mean?  initialize
 # undefined method `last$2' for class `Range'
 # wrong constant name %
 # uninitialized constant Range::RANGE_FORMATS
@@ -8626,6 +8717,7 @@
 # wrong constant name last$2
 # wrong constant name to_a
 # undefined method `rationalize$2' for class `Rational'
+# Did you mean?  Rational
 # uninitialized constant Rational::EXABYTE
 # uninitialized constant Rational::GIGABYTE
 # uninitialized constant Rational::KILOBYTE
@@ -8850,6 +8942,7 @@
 # wrong constant name <static-init>
 # wrong constant name binary_search
 # undefined method `initialize$2' for class `Regexp'
+# Did you mean?  initialize
 # undefined method `match$1' for class `Regexp'
 # wrong constant name initialize$2
 # wrong constant name match$1
@@ -9258,174 +9351,6 @@
 # uninitialized constant SQLite3::Database::SYNCHRONOUS_MODES
 # uninitialized constant SQLite3::Database::TEMP_STORE_MODES
 # uninitialized constant SQLite3::Database::WAL_CHECKPOINTS
-# uninitialized constant Sass::SCSS::Parser::ANY
-# uninitialized constant Sass::SCSS::Parser::CDC
-# uninitialized constant Sass::SCSS::Parser::CDO
-# uninitialized constant Sass::SCSS::Parser::COMMENT
-# uninitialized constant Sass::SCSS::Parser::DASHMATCH
-# uninitialized constant Sass::SCSS::Parser::DOMAIN
-# uninitialized constant Sass::SCSS::Parser::ESCAPE
-# uninitialized constant Sass::SCSS::Parser::FUNCTION
-# uninitialized constant Sass::SCSS::Parser::GREATER
-# uninitialized constant Sass::SCSS::Parser::H
-# uninitialized constant Sass::SCSS::Parser::HASH
-# uninitialized constant Sass::SCSS::Parser::HEXCOLOR
-# uninitialized constant Sass::SCSS::Parser::IDENT
-# uninitialized constant Sass::SCSS::Parser::IDENT_HYPHEN_INTERP
-# uninitialized constant Sass::SCSS::Parser::IDENT_START
-# uninitialized constant Sass::SCSS::Parser::IMPORTANT
-# uninitialized constant Sass::SCSS::Parser::INCLUDES
-# uninitialized constant Sass::SCSS::Parser::INTERP_START
-# uninitialized constant Sass::SCSS::Parser::NAME
-# uninitialized constant Sass::SCSS::Parser::NL
-# uninitialized constant Sass::SCSS::Parser::NMCHAR
-# uninitialized constant Sass::SCSS::Parser::NMSTART
-# uninitialized constant Sass::SCSS::Parser::NONASCII
-# uninitialized constant Sass::SCSS::Parser::NOT
-# uninitialized constant Sass::SCSS::Parser::NUMBER
-# uninitialized constant Sass::SCSS::Parser::OPTIONAL
-# uninitialized constant Sass::SCSS::Parser::PERCENTAGE
-# uninitialized constant Sass::SCSS::Parser::PLUS
-# uninitialized constant Sass::SCSS::Parser::PREFIXMATCH
-# uninitialized constant Sass::SCSS::Parser::RANGE
-# uninitialized constant Sass::SCSS::Parser::S
-# uninitialized constant Sass::SCSS::Parser::SINGLE_LINE_COMMENT
-# uninitialized constant Sass::SCSS::Parser::STATIC_COMPONENT
-# uninitialized constant Sass::SCSS::Parser::STATIC_SELECTOR
-# uninitialized constant Sass::SCSS::Parser::STATIC_VALUE
-# uninitialized constant Sass::SCSS::Parser::STRING
-# uninitialized constant Sass::SCSS::Parser::STRING1
-# uninitialized constant Sass::SCSS::Parser::STRING1_NOINTERP
-# uninitialized constant Sass::SCSS::Parser::STRING2
-# uninitialized constant Sass::SCSS::Parser::STRING2_NOINTERP
-# uninitialized constant Sass::SCSS::Parser::STRING_NOINTERP
-# uninitialized constant Sass::SCSS::Parser::SUBSTRINGMATCH
-# uninitialized constant Sass::SCSS::Parser::SUFFIXMATCH
-# uninitialized constant Sass::SCSS::Parser::TILDE
-# uninitialized constant Sass::SCSS::Parser::UNICODE
-# uninitialized constant Sass::SCSS::Parser::UNICODERANGE
-# uninitialized constant Sass::SCSS::Parser::UNIT
-# uninitialized constant Sass::SCSS::Parser::UNITLESS_NUMBER
-# uninitialized constant Sass::SCSS::Parser::URI
-# uninitialized constant Sass::SCSS::Parser::URL
-# uninitialized constant Sass::SCSS::Parser::URLCHAR
-# uninitialized constant Sass::SCSS::Parser::URL_PREFIX
-# uninitialized constant Sass::SCSS::Parser::VARIABLE
-# uninitialized constant Sass::SCSS::Parser::W
-# uninitialized constant Sass::SCSS::StaticParser::ANY
-# uninitialized constant Sass::SCSS::StaticParser::CDC
-# uninitialized constant Sass::SCSS::StaticParser::CDO
-# uninitialized constant Sass::SCSS::StaticParser::COMMENT
-# uninitialized constant Sass::SCSS::StaticParser::DASHMATCH
-# uninitialized constant Sass::SCSS::StaticParser::DIRECTIVES
-# uninitialized constant Sass::SCSS::StaticParser::DOMAIN
-# uninitialized constant Sass::SCSS::StaticParser::ESCAPE
-# uninitialized constant Sass::SCSS::StaticParser::EXPR_NAMES
-# uninitialized constant Sass::SCSS::StaticParser::FUNCTION
-# uninitialized constant Sass::SCSS::StaticParser::GREATER
-# uninitialized constant Sass::SCSS::StaticParser::H
-# uninitialized constant Sass::SCSS::StaticParser::HASH
-# uninitialized constant Sass::SCSS::StaticParser::HEXCOLOR
-# uninitialized constant Sass::SCSS::StaticParser::IDENT
-# uninitialized constant Sass::SCSS::StaticParser::IDENT_HYPHEN_INTERP
-# uninitialized constant Sass::SCSS::StaticParser::IDENT_START
-# uninitialized constant Sass::SCSS::StaticParser::IMPORTANT
-# uninitialized constant Sass::SCSS::StaticParser::INCLUDES
-# uninitialized constant Sass::SCSS::StaticParser::INTERP_START
-# uninitialized constant Sass::SCSS::StaticParser::NAME
-# uninitialized constant Sass::SCSS::StaticParser::NEWLINE
-# uninitialized constant Sass::SCSS::StaticParser::NL
-# uninitialized constant Sass::SCSS::StaticParser::NMCHAR
-# uninitialized constant Sass::SCSS::StaticParser::NMSTART
-# uninitialized constant Sass::SCSS::StaticParser::NONASCII
-# uninitialized constant Sass::SCSS::StaticParser::NOT
-# uninitialized constant Sass::SCSS::StaticParser::NUMBER
-# uninitialized constant Sass::SCSS::StaticParser::OPTIONAL
-# uninitialized constant Sass::SCSS::StaticParser::PERCENTAGE
-# uninitialized constant Sass::SCSS::StaticParser::PLUS
-# uninitialized constant Sass::SCSS::StaticParser::PREFIXED_DIRECTIVES
-# uninitialized constant Sass::SCSS::StaticParser::PREFIXMATCH
-# uninitialized constant Sass::SCSS::StaticParser::RANGE
-# uninitialized constant Sass::SCSS::StaticParser::S
-# uninitialized constant Sass::SCSS::StaticParser::SINGLE_LINE_COMMENT
-# uninitialized constant Sass::SCSS::StaticParser::STATIC_COMPONENT
-# uninitialized constant Sass::SCSS::StaticParser::STATIC_SELECTOR
-# uninitialized constant Sass::SCSS::StaticParser::STATIC_VALUE
-# uninitialized constant Sass::SCSS::StaticParser::STRING
-# uninitialized constant Sass::SCSS::StaticParser::STRING1
-# uninitialized constant Sass::SCSS::StaticParser::STRING1_NOINTERP
-# uninitialized constant Sass::SCSS::StaticParser::STRING2
-# uninitialized constant Sass::SCSS::StaticParser::STRING2_NOINTERP
-# uninitialized constant Sass::SCSS::StaticParser::STRING_NOINTERP
-# uninitialized constant Sass::SCSS::StaticParser::SUBSTRINGMATCH
-# uninitialized constant Sass::SCSS::StaticParser::SUFFIXMATCH
-# uninitialized constant Sass::SCSS::StaticParser::TILDE
-# uninitialized constant Sass::SCSS::StaticParser::TOK_NAMES
-# uninitialized constant Sass::SCSS::StaticParser::UNICODE
-# uninitialized constant Sass::SCSS::StaticParser::UNICODERANGE
-# uninitialized constant Sass::SCSS::StaticParser::UNIT
-# uninitialized constant Sass::SCSS::StaticParser::UNITLESS_NUMBER
-# uninitialized constant Sass::SCSS::StaticParser::URI
-# uninitialized constant Sass::SCSS::StaticParser::URL
-# uninitialized constant Sass::SCSS::StaticParser::URLCHAR
-# uninitialized constant Sass::SCSS::StaticParser::URL_PREFIX
-# uninitialized constant Sass::SCSS::StaticParser::VARIABLE
-# uninitialized constant Sass::SCSS::StaticParser::W
-# uninitialized constant Sass::Script::Functions::EvaluationContext::VALID_UNIT
-# uninitialized constant Sass::Script::Lexer::ANY
-# uninitialized constant Sass::Script::Lexer::CDC
-# uninitialized constant Sass::Script::Lexer::CDO
-# uninitialized constant Sass::Script::Lexer::COMMENT
-# uninitialized constant Sass::Script::Lexer::DASHMATCH
-# uninitialized constant Sass::Script::Lexer::DOMAIN
-# uninitialized constant Sass::Script::Lexer::ESCAPE
-# uninitialized constant Sass::Script::Lexer::FUNCTION
-# uninitialized constant Sass::Script::Lexer::GREATER
-# uninitialized constant Sass::Script::Lexer::H
-# uninitialized constant Sass::Script::Lexer::HASH
-# uninitialized constant Sass::Script::Lexer::HEXCOLOR
-# uninitialized constant Sass::Script::Lexer::IDENT
-# uninitialized constant Sass::Script::Lexer::IDENT_HYPHEN_INTERP
-# uninitialized constant Sass::Script::Lexer::IDENT_START
-# uninitialized constant Sass::Script::Lexer::IMPORTANT
-# uninitialized constant Sass::Script::Lexer::INCLUDES
-# uninitialized constant Sass::Script::Lexer::INTERP_START
-# uninitialized constant Sass::Script::Lexer::NAME
-# uninitialized constant Sass::Script::Lexer::NL
-# uninitialized constant Sass::Script::Lexer::NMCHAR
-# uninitialized constant Sass::Script::Lexer::NMSTART
-# uninitialized constant Sass::Script::Lexer::NONASCII
-# uninitialized constant Sass::Script::Lexer::NOT
-# uninitialized constant Sass::Script::Lexer::NUMBER
-# uninitialized constant Sass::Script::Lexer::OPTIONAL
-# uninitialized constant Sass::Script::Lexer::PERCENTAGE
-# uninitialized constant Sass::Script::Lexer::PLUS
-# uninitialized constant Sass::Script::Lexer::PREFIXMATCH
-# uninitialized constant Sass::Script::Lexer::RANGE
-# uninitialized constant Sass::Script::Lexer::S
-# uninitialized constant Sass::Script::Lexer::SINGLE_LINE_COMMENT
-# uninitialized constant Sass::Script::Lexer::STATIC_COMPONENT
-# uninitialized constant Sass::Script::Lexer::STATIC_SELECTOR
-# uninitialized constant Sass::Script::Lexer::STATIC_VALUE
-# uninitialized constant Sass::Script::Lexer::STRING
-# uninitialized constant Sass::Script::Lexer::STRING1
-# uninitialized constant Sass::Script::Lexer::STRING1_NOINTERP
-# uninitialized constant Sass::Script::Lexer::STRING2
-# uninitialized constant Sass::Script::Lexer::STRING2_NOINTERP
-# uninitialized constant Sass::Script::Lexer::STRING_NOINTERP
-# uninitialized constant Sass::Script::Lexer::SUBSTRINGMATCH
-# uninitialized constant Sass::Script::Lexer::SUFFIXMATCH
-# uninitialized constant Sass::Script::Lexer::TILDE
-# uninitialized constant Sass::Script::Lexer::UNICODE
-# uninitialized constant Sass::Script::Lexer::UNICODERANGE
-# uninitialized constant Sass::Script::Lexer::UNIT
-# uninitialized constant Sass::Script::Lexer::UNITLESS_NUMBER
-# uninitialized constant Sass::Script::Lexer::URI
-# uninitialized constant Sass::Script::Lexer::URL
-# uninitialized constant Sass::Script::Lexer::URLCHAR
-# uninitialized constant Sass::Script::Lexer::URL_PREFIX
-# uninitialized constant Sass::Script::Lexer::VARIABLE
-# uninitialized constant Sass::Script::Lexer::W
 # wrong constant name bytes
 # wrong constant name ==
 # wrong constant name ===
@@ -9617,6 +9542,7 @@
 # wrong constant name my_require
 # wrong constant name patch_kernel
 # wrong constant name rails?
+# wrong constant name rb_file_paths
 # wrong constant name require_all_files
 # wrong constant name require_everything
 # wrong constant name alias
@@ -9724,9 +9650,6 @@
 # uninitialized constant Sprockets::Rails::Helper::URI_REGEXP
 # uninitialized constant Sprockets::Railtie::ABSTRACT_RAILTIES
 # uninitialized constant Sprockets::Resolve::SEPARATOR_PATTERN
-# wrong constant name initialize
-# wrong constant name path_to
-# wrong constant name <static-init>
 # wrong constant name <static-init>
 # wrong constant name call
 # wrong constant name <static-init>
@@ -9748,7 +9671,9 @@
 # undefined method `concat$1' for class `String'
 # undefined method `count$1' for class `String'
 # undefined method `delete$1' for class `String'
+# Did you mean?  delegate
 # undefined method `delete!$1' for class `String'
+# Did you mean?  delegate
 # undefined method `downcase$1' for class `String'
 # undefined method `downcase!$1' for class `String'
 # undefined method `each_line$2' for class `String'
@@ -9756,11 +9681,14 @@
 # undefined method `gsub!$2' for class `String'
 # undefined method `index$1' for class `String'
 # undefined method `initialize$1' for class `String'
+# Did you mean?  initialize
 # undefined method `lines$1' for class `String'
 # undefined method `ljust$1' for class `String'
 # undefined method `match$2' for class `String'
 # undefined method `match?$2' for class `String'
 # undefined method `prepend$1' for class `String'
+# Did you mean?  prepend
+#                prepended
 # undefined method `rindex$1' for class `String'
 # undefined method `rjust$1' for class `String'
 # undefined method `scrub$2' for class `String'
@@ -9847,6 +9775,7 @@
 # undefined method `each_line$2' for class `StringIO'
 # undefined method `fcntl$1' for class `StringIO'
 # undefined method `initialize$1' for class `StringIO'
+# Did you mean?  initialize
 # undefined method `lines$2' for class `StringIO'
 # undefined method `read$1' for class `StringIO'
 # undefined method `reopen$2' for class `StringIO'
@@ -9910,6 +9839,7 @@
 # wrong constant name values_at
 # wrong constant name must_C_version
 # undefined method `initialize$1' for class `Struct'
+# Did you mean?  initialize
 # wrong constant name []
 # wrong constant name []=
 # wrong constant name dig
@@ -9949,6 +9879,7 @@
 # wrong constant name T.noreturn
 # wrong constant name T.untyped
 # undefined method `initialize$1' for class `Tempfile'
+# Did you mean?  initialize
 # wrong constant name <Class:Remover>
 # wrong constant name _close
 # wrong constant name initialize$1
@@ -10216,9 +10147,11 @@
 # wrong constant name <static-init>
 # undefined method `getlocal$1' for class `Time'
 # undefined method `initialize$1' for class `Time'
+# Did you mean?  initialize
 # undefined method `localtime$1' for class `Time'
 # undefined method `round$1' for class `Time'
 # undefined method `to_s$1' for class `Time'
+# Did you mean?  to_s
 # uninitialized constant Time::DAYS_INTO_WEEK
 # uninitialized constant Time::WEEKEND_DAYS
 # wrong constant name getlocal$1
