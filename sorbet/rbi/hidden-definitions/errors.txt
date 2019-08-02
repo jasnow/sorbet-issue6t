@@ -27,7 +27,6 @@
 # wrong constant name <RESERVED_113>
 # wrong constant name <RESERVED_114>
 # wrong constant name <RESERVED_115>
-# wrong constant name <RESERVED_116>
 # wrong constant name <RESERVED_11>
 # wrong constant name <RESERVED_12>
 # wrong constant name <RESERVED_13>
@@ -6865,7 +6864,6 @@
 # wrong constant name restore
 # undefined method `[]$2' for class `MatchData'
 # wrong constant name []$2
-# wrong constant name named_captures
 # uninitialized constant Minitest::Test::E
 # uninitialized constant Minitest::Test::SIGNALS
 # uninitialized constant Minitest::Test::UNDEFINED
@@ -9542,6 +9540,7 @@
 # wrong constant name my_require
 # wrong constant name patch_kernel
 # wrong constant name rails?
+# wrong constant name rails_load_paths
 # wrong constant name rb_file_paths
 # wrong constant name require_all_files
 # wrong constant name require_everything

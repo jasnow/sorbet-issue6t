@@ -12552,7 +12552,6 @@ end
 
 class MatchData
   include ::ActiveSupport::ToJsonWithActiveSupportEncoder
-  def named_captures(); end
 end
 
 module MessagePack
@@ -18441,6 +18440,8 @@ class Sorbet::Private::RequireEverything
   def self.patch_kernel(); end
 
   def self.rails?(); end
+
+  def self.rails_load_paths(); end
 
   def self.rb_file_paths(); end
 
