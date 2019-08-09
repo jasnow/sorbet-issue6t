@@ -6852,6 +6852,13 @@
 # wrong constant name wait_until
 # wrong constant name wait_while
 # wrong constant name extend_object
+# uninitialized constant NIO::ByteBuffer::Elem
+# wrong constant name <Class:MarkUnsetError>
+# wrong constant name <Class:OverflowError>
+# wrong constant name <Class:UnderflowError>
+# wrong constant name <static-init>
+# wrong constant name <static-init>
+# wrong constant name <static-init>
 # wrong constant name name
 # wrong constant name receiver
 # uninitialized constant Net::APOP::Revision
@@ -7782,6 +7789,9 @@
 # uninitialized constant Puma::Binder::HTTP_HOST
 # uninitialized constant Puma::Binder::HTTP_VERSION
 # uninitialized constant Puma::Binder::HTTP_X_FORWARDED_FOR
+# uninitialized constant Puma::Binder::HTTP_X_FORWARDED_PROTO
+# uninitialized constant Puma::Binder::HTTP_X_FORWARDED_SCHEME
+# uninitialized constant Puma::Binder::HTTP_X_FORWARDED_SSL
 # uninitialized constant Puma::Binder::KEEP_ALIVE
 # uninitialized constant Puma::Binder::LINE_END
 # uninitialized constant Puma::Binder::LOCALHOST
@@ -7818,6 +7828,7 @@
 # uninitialized constant Puma::Binder::TRANSFER_ENCODING2
 # uninitialized constant Puma::Binder::TRANSFER_ENCODING_CHUNKED
 # uninitialized constant Puma::Binder::VERSION
+# uninitialized constant Puma::Binder::WORKER_CHECK_INTERVAL
 # uninitialized constant Puma::Binder::WRITE_TIMEOUT
 # uninitialized constant Puma::Client::CGI_VER
 # uninitialized constant Puma::Client::CHUNKED
@@ -7858,6 +7869,9 @@
 # uninitialized constant Puma::Client::HTTP_HOST
 # uninitialized constant Puma::Client::HTTP_VERSION
 # uninitialized constant Puma::Client::HTTP_X_FORWARDED_FOR
+# uninitialized constant Puma::Client::HTTP_X_FORWARDED_PROTO
+# uninitialized constant Puma::Client::HTTP_X_FORWARDED_SCHEME
+# uninitialized constant Puma::Client::HTTP_X_FORWARDED_SSL
 # uninitialized constant Puma::Client::KEEP_ALIVE
 # uninitialized constant Puma::Client::LINE_END
 # uninitialized constant Puma::Client::LOCALHOST
@@ -7894,6 +7908,7 @@
 # uninitialized constant Puma::Client::TRANSFER_ENCODING2
 # uninitialized constant Puma::Client::TRANSFER_ENCODING_CHUNKED
 # uninitialized constant Puma::Client::VERSION
+# uninitialized constant Puma::Client::WORKER_CHECK_INTERVAL
 # uninitialized constant Puma::Client::WRITE_TIMEOUT
 # uninitialized constant Puma::Events::CGI_VER
 # uninitialized constant Puma::Events::CHUNKED
@@ -7934,6 +7949,9 @@
 # uninitialized constant Puma::Events::HTTP_HOST
 # uninitialized constant Puma::Events::HTTP_VERSION
 # uninitialized constant Puma::Events::HTTP_X_FORWARDED_FOR
+# uninitialized constant Puma::Events::HTTP_X_FORWARDED_PROTO
+# uninitialized constant Puma::Events::HTTP_X_FORWARDED_SCHEME
+# uninitialized constant Puma::Events::HTTP_X_FORWARDED_SSL
 # uninitialized constant Puma::Events::KEEP_ALIVE
 # uninitialized constant Puma::Events::LINE_END
 # uninitialized constant Puma::Events::LOCALHOST
@@ -7970,6 +7988,7 @@
 # uninitialized constant Puma::Events::TRANSFER_ENCODING2
 # uninitialized constant Puma::Events::TRANSFER_ENCODING_CHUNKED
 # uninitialized constant Puma::Events::VERSION
+# uninitialized constant Puma::Events::WORKER_CHECK_INTERVAL
 # uninitialized constant Puma::Events::WRITE_TIMEOUT
 # wrong constant name <static-init>
 # wrong constant name <Class:SSLError>
@@ -8013,6 +8032,9 @@
 # uninitialized constant Puma::Server::HTTP_HOST
 # uninitialized constant Puma::Server::HTTP_VERSION
 # uninitialized constant Puma::Server::HTTP_X_FORWARDED_FOR
+# uninitialized constant Puma::Server::HTTP_X_FORWARDED_PROTO
+# uninitialized constant Puma::Server::HTTP_X_FORWARDED_SCHEME
+# uninitialized constant Puma::Server::HTTP_X_FORWARDED_SSL
 # uninitialized constant Puma::Server::KEEP_ALIVE
 # uninitialized constant Puma::Server::LINE_END
 # uninitialized constant Puma::Server::LOCALHOST
@@ -8049,6 +8071,7 @@
 # uninitialized constant Puma::Server::TRANSFER_ENCODING2
 # uninitialized constant Puma::Server::TRANSFER_ENCODING_CHUNKED
 # uninitialized constant Puma::Server::VERSION
+# uninitialized constant Puma::Server::WORKER_CHECK_INTERVAL
 # uninitialized constant Puma::Server::WRITE_TIMEOUT
 # wrong constant name <Class:CparseParams>
 # wrong constant name <static-init>
