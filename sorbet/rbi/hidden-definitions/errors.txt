@@ -1071,7 +1071,6 @@
 # uninitialized constant ActiveRecord::InternalMetadata::NAME_COMPILABLE_REGEXP
 # uninitialized constant ActiveRecord::InternalMetadata::UNASSIGNABLE_KEYS
 # wrong constant name <static-init>
-# wrong constant name <static-init>
 # wrong constant name []
 # wrong constant name []=
 # wrong constant name create_table
