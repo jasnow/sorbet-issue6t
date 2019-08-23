@@ -3195,6 +3195,7 @@ class ActiveRecord::Base
   def self.include_root_in_json?; end
   def self.index_nested_attribute_errors; end
   def self.index_nested_attribute_errors=(obj); end
+  def self.inherited(child); end
   def self.internal_metadata_table_name; end
   def self.internal_metadata_table_name=(val); end
   def self.internal_metadata_table_name?; end
@@ -3221,6 +3222,7 @@ class ActiveRecord::Base
   def self.record_timestamps; end
   def self.record_timestamps=(val); end
   def self.record_timestamps?; end
+  def self.sbr_old_inherited(subclass); end
   def self.schema_format; end
   def self.schema_format=(obj); end
   def self.schema_migrations_table_name; end
