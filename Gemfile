@@ -26,8 +26,6 @@ gem 'jbuilder'
 # Add sorbet to the app
 gem 'sorbet-runtime'
 gem 'sorbet-rails'
-gem 'dalli'  # 7/15/2019: Added for 'sorbet'
-gem 'redis'  # 7/15/2019: Added for 'sorbet'
 
 # Use Redis adapter to run Action Cable in production
 # Use ActiveModel has_secure_password
