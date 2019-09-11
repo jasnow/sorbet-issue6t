@@ -3495,6 +3495,7 @@ class Array
   def to_csv(**options); end
 
   def to_h(); end
+
 end
 
 class Array
@@ -4748,6 +4749,7 @@ class Dir
   def children(); end
 
   def each_child(); end
+
 end
 
 class Dir
@@ -4905,6 +4907,7 @@ class Enumerator
   def +(_); end
 
   def each_with_index(); end
+
 end
 
 class Enumerator::ArithmeticSequence
@@ -5225,6 +5228,7 @@ end
 class Exception
   include ::ActiveSupport::ToJsonWithActiveSupportEncoder
   def full_message(*_); end
+
 end
 
 class Exception
@@ -5522,13 +5526,14 @@ class File::Stat
 end
 
 class File
-  def self.empty?(_); end
-
   def self.exists?(_); end
 
   def self.lutime(*_); end
 
   def self.mkfifo(*_); end
+
+  def self.probe_stat_in(dir); end
+
 end
 
 module FileUtils
@@ -6353,6 +6358,7 @@ class IO
   def self.foreach(*_); end
 
   def self.pipe(*_); end
+
 end
 
 class IPAddr
@@ -8548,8 +8554,6 @@ MiniTest::Runnable = Minitest::Runnable
 
 MiniTest::Test = Minitest::Test
 
-MiniTest = Minitest
-
 module Minitest
 end
 
@@ -8718,8 +8722,6 @@ class Net::HTTP
   ENVIRONMENT_VARIABLE_IS_MULTIUSER_SAFE = ::T.let(nil, ::T.untyped)
 end
 
-Net::HTTP::ProxyMod = Net::HTTP::ProxyDelta
-
 class Net::HTTPAlreadyReported
   HAS_BODY = ::T.let(nil, ::T.untyped)
 end
@@ -8731,8 +8733,6 @@ class Net::HTTPClientError
 end
 
 Net::HTTPClientErrorCode::EXCEPTION_TYPE = Net::HTTPServerException
-
-Net::HTTPClientErrorCode = Net::HTTPClientError
 
 class Net::HTTPClientError
 end
@@ -8763,9 +8763,13 @@ class Net::HTTPGenericRequest::Chunker
   include ::ActiveSupport::ToJsonWithActiveSupportEncoder
 end
 
-Net::HTTPInformation::EXCEPTION_TYPE = Net::HTTPError
+class Net::HTTPInformation
+end
 
-Net::HTTPInformationCode = Net::HTTPInformation
+Net::HTTPInformationCode::EXCEPTION_TYPE = Net::HTTPError
+
+class Net::HTTPInformation
+end
 
 class Net::HTTPLoopDetected
   HAS_BODY = ::T.let(nil, ::T.untyped)
@@ -8813,9 +8817,13 @@ end
 class Net::HTTPRangeNotSatisfiable
 end
 
-Net::HTTPRedirection::EXCEPTION_TYPE = Net::HTTPRetriableError
+class Net::HTTPRedirection
+end
 
-Net::HTTPRedirectionCode = Net::HTTPRedirection
+Net::HTTPRedirectionCode::EXCEPTION_TYPE = Net::HTTPRetriableError
+
+class Net::HTTPRedirection
+end
 
 class Net::HTTPRequestTimeout
   HAS_BODY = ::T.let(nil, ::T.untyped)
@@ -8843,16 +8851,26 @@ end
 
 Net::HTTPServerErrorCode::EXCEPTION_TYPE = Net::HTTPFatalError
 
-Net::HTTPServerErrorCode = Net::HTTPServerError
-
 class Net::HTTPServerError
 end
 
-Net::HTTPSession = Net::HTTP
+class Net::HTTP
+end
 
-Net::HTTPSuccess::EXCEPTION_TYPE = Net::HTTPError
+Net::HTTPSession::ProxyDelta = Net::HTTP::ProxyDelta
 
-Net::HTTPSuccessCode = Net::HTTPSuccess
+Net::HTTPSession::ProxyMod = Net::HTTP::ProxyDelta
+
+class Net::HTTP
+end
+
+class Net::HTTPSuccess
+end
+
+Net::HTTPSuccessCode::EXCEPTION_TYPE = Net::HTTPError
+
+class Net::HTTPSuccess
+end
 
 class Net::HTTPURITooLong
   HAS_BODY = ::T.let(nil, ::T.untyped)
@@ -8872,6 +8890,7 @@ end
 
 class Net::IMAP
   def open_timeout(); end
+
   RESPONSE_ERRORS = ::T.let(nil, ::T.untyped)
 end
 
@@ -9728,6 +9747,7 @@ class Pathname
   def glob(*_); end
 
   def make_symlink(_); end
+
 end
 
 class PrettyPrint
@@ -9779,6 +9799,7 @@ end
 
 module Process::Sys
   def self.getegid(); end
+
 end
 
 class Process::Tms
@@ -9809,6 +9830,7 @@ module Process
   def self.last_status(); end
 
   def self.setpgrp(); end
+
 end
 
 module Psych
@@ -11974,6 +11996,7 @@ end
 
 module Random::Formatter
   def alphanumeric(n=T.unsafe(nil)); end
+
   ALPHANUMERIC = ::T.let(nil, ::T.untyped)
 end
 
@@ -14360,6 +14383,7 @@ class String
   def unicode_normalized?(*_); end
 
   def unpack1(_); end
+
   BLANK_RE = ::T.let(nil, ::T.untyped)
   ENCODED_BLANKS = ::T.let(nil, ::T.untyped)
 end
@@ -14368,6 +14392,7 @@ class StringIO
   def length(); end
 
   def truncate(_); end
+
 end
 
 class StringScanner
