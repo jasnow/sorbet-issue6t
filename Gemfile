@@ -23,10 +23,6 @@ gem 'turbolinks'
 # Build JSON APIs with ease. Read more: https://github.com/rails/jbuilder
 gem 'jbuilder'
 
-# Add sorbet to the app
-gem 'sorbet-runtime'
-gem 'sorbet-rails'
-
 # Use Redis adapter to run Action Cable in production
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
@@ -65,3 +61,9 @@ end
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
+
+# Add sorbet to the app
+gem 'sorbet-runtime'
+gem 'sorbet-rails'
+gem 'dalli' # Needed by sorbet.
+gem 'redis' # Needed by sorbet.
