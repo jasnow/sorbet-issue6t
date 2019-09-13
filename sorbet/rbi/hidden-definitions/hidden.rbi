@@ -5335,6 +5335,7 @@ end
 
 module Exception2MessageMapper
   def bind(cl); end
+
 end
 
 Exception2MessageMapper::E2MM = Exception2MessageMapper
