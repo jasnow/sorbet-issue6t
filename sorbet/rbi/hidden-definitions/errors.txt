@@ -1536,14 +1536,6 @@
 # uninitialized constant ActiveSupport::TestCase::UNDEFINED
 # uninitialized constant ActiveSupport::TestCase::UNTRACKED
 # wrong constant name connect_internal
-# wrong constant name <Class:Channel>
-# wrong constant name <Class:Connection>
-# uninitialized constant ApplicationCable::Channel::CALLBACK_FILTER_TYPES
-# wrong constant name <static-init>
-# wrong constant name <static-init>
-# wrong constant name <static-init>
-# uninitialized constant ApplicationJob::CALLBACK_FILTER_TYPES
-# wrong constant name <static-init>
 # uninitialized constant ApplicationRecord::ACTIONS
 # wrong constant name <Class:ActiveRecord_AssociationRelation>
 # wrong constant name <Class:ActiveRecord_Associations_CollectionProxy>
@@ -1601,7 +1593,6 @@
 # A copy of ApplicationRecord::ActiveRecord_Relation has been removed from the module tree but is still active!
 # A copy of ApplicationRecord::ActiveRecord_Relation has been removed from the module tree but is still active!
 # A copy of ApplicationRecord::ActiveRecord_Relation has been removed from the module tree but is still active!
-# wrong constant name <static-init>
 # wrong constant name <static-init>
 # wrong constant name <static-init>
 # wrong constant name <static-init>
@@ -2524,6 +2515,7 @@
 # wrong constant name basename$1
 # wrong constant name chmod$1
 # wrong constant name chown$1
+# wrong constant name empty?
 # wrong constant name exists?
 # wrong constant name expand_path$1
 # wrong constant name fnmatch$1
@@ -2532,7 +2524,6 @@
 # wrong constant name lchown$1
 # wrong constant name lutime
 # wrong constant name mkfifo
-# wrong constant name probe_stat_in
 # wrong constant name realdirpath$1
 # wrong constant name realpath$1
 # wrong constant name umask$1
@@ -5220,8 +5211,6 @@
 # wrong constant name HTTPRequestURITooLong$1
 # wrong constant name HTTPRequestedRangeNotSatisfiable$1
 # wrong constant name HTTPRequestedRangeNotSatisfiable$1
-# wrong constant name HTTPServerErrorCode$1
-# wrong constant name HTTPServerErrorCode$1
 # uninitialized constant Net::HTTPURITooLong::CODE_CLASS_TO_OBJ
 # uninitialized constant Net::HTTPURITooLong::CODE_TO_OBJ
 # wrong constant name <static-init>
@@ -7939,10 +7928,6 @@
 # wrong constant name count$1
 # wrong constant name delete$1
 # wrong constant name delete!$1
-# wrong constant name delete_prefix
-# wrong constant name delete_prefix!
-# wrong constant name delete_suffix
-# wrong constant name delete_suffix!
 # wrong constant name downcase$1
 # wrong constant name downcase!$1
 # wrong constant name each_grapheme_cluster
