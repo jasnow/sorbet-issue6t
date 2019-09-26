@@ -48,6 +48,7 @@ GEM
       msgpack (~> 1.0)
     builder (3.2.3)
     byebug (11.0.1)
+    coderay (1.1.2)
     coffee-rails (5.0.0)
       coffee-script (>= 2.2.0)
       railties (>= 5.2.0)
@@ -57,7 +58,6 @@ GEM
     coffee-script-source (1.12.2)
     concurrent-ruby (1.1.5)
     crass (1.0.4)
-    dalli (2.7.10)
     erubi (1.9.0)
     execjs (2.7.0)
     ffi (1.11.1)
@@ -87,9 +87,9 @@ GEM
     nio4r (2.5.2)
     nokogiri (1.10.4)
       mini_portile2 (~> 2.4.0)
-    parlour (0.8.0)
-      rainbow (~> 3.0.0)
-      sorbet-runtime
+    pry (0.12.2)
+      coderay (~> 1.1.0)
+      method_source (~> 0.9.0)
     puma (4.2.0)
       nio4r (~> 2.0)
     rack (2.0.7)
@@ -119,12 +119,10 @@ GEM
       method_source
       rake (>= 0.8.7)
       thor (>= 0.19.0, < 2.0)
-    rainbow (3.0.0)
     rake (12.3.3)
     rb-fsevent (0.10.3)
     rb-inotify (0.10.0)
       ffi (~> 1.0)
-    redis (4.1.3)
     ruby_dep (1.5.0)
     sassc (2.2.1)
       ffi (~> 1.9)
@@ -136,8 +134,6 @@ GEM
       tilt
     sorbet (0.4.4798)
       sorbet-static (= 0.4.4798)
-    sorbet-rails (0.5.6)
-      parlour (~> 0.8.0)
     sorbet-runtime (0.4.4798)
     sorbet-static (0.4.4798-universal-darwin-14)
     spring (2.1.0)
@@ -152,6 +148,12 @@ GEM
       activesupport (>= 4.0)
       sprockets (>= 3.0.0)
     sqlite3 (1.4.1)
+    tapioca (0.2.2)
+      pry (>= 0.12.2)
+      sorbet-runtime
+      sorbet-static (~> 0.4.4471)
+      thor (~> 0.20.3)
+      zeitwerk (~> 2.1)
     thor (0.20.3)
     thread_safe (0.3.6)
     tilt (2.0.10)
@@ -170,6 +172,7 @@ GEM
     websocket-driver (0.7.1)
       websocket-extensions (>= 0.1.0)
     websocket-extensions (0.1.4)
+    zeitwerk (2.1.10)
 
 PLATFORMS
   ruby
@@ -178,19 +181,16 @@ DEPENDENCIES
   bootsnap
   byebug
   coffee-rails
-  dalli
   jbuilder
   listen (>= 3.0.5, < 3.2)
   puma
   rails (~> 5.2.3)
-  redis
   sassc-rails
   sorbet
-  sorbet-rails
-  sorbet-runtime
   spring
   spring-watcher-listen
   sqlite3
+  tapioca
   turbolinks
   tzinfo-data
   uglifier
