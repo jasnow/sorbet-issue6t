@@ -3403,13 +3403,6 @@ Regexp::MULTILINE = T.let(T.unsafe(nil), Integer)
 
 Regexp::NOENCODING = T.let(T.unsafe(nil), Integer)
 
-module SecureRandom
-  extend(::Random::Formatter)
-
-  def self.bytes(n); end
-  def self.gen_random(n); end
-end
-
 class String
   include(::MessagePack::CoreExt)
   include(::JSON::Ext::Generator::GeneratorMethods::String)

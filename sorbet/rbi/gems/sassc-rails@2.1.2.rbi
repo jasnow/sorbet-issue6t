@@ -92,11 +92,11 @@ module Sprockets
   extend(::Sprockets::Configuration)
   extend(::Sprockets::Paths)
   extend(::Sprockets::Mime)
-  extend(::Sprockets::Engines)
   extend(::Sprockets::Transformers)
   extend(::Sprockets::HTTPUtils)
   extend(::Sprockets::Processing)
   extend(::Sprockets::ProcessorUtils)
+  extend(::Sprockets::Exporting)
   extend(::Sprockets::Compressing)
   extend(::Sprockets::Dependencies)
   extend(::Sprockets::PathDigestUtils)
@@ -105,8 +105,6 @@ module Sprockets
   extend(::Sprockets::URIUtils)
   extend(::Sprockets::Utils)
 end
-
-Sprockets::Index = Sprockets::CachedEnvironment
 
 class Sprockets::SassCompressor
   def initialize(options = _); end
